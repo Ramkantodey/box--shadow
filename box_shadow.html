@@ -4,8 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .box-1{
+            margin: 50px;
+            height: 300px;
+            width: 600px;
+            background-color: navy;
+            box-shadow: 15px 8px;
+            /* box-shadow er prthom value ta x okko borabor kaj kre and second 
+            value ta y okko bora bor kaj kre */
+        }
+        .box-2{
+            margin: 50px;
+            height: 300px;
+            width: 600px;
+            background-color: navy;
+            box-shadow: -15px -8px;
+            /* eikane ami nagative dewar karone eita same okko bora bor kaj krteche kintu ulto dike 
+            oporer box-1 ea j valu gula chilo seigula x okko ta right dike kaj krche 
+            and y okker ta buttom bora bor kaj korche
+            ami eikane nagatve(-) dewar karone x okko ta left dike kaj krteche and y okko ta top dike kaj krteche */
+        }
+        .box-3{
+            margin: 50px;
+            height: 300px;
+            width: 600px;
+            background-color: navy;
+            box-shadow: 15px 15px red,-15px -15px green, 15px -15px goldenrod, -15px 15px  brown;
+            /* eikane 2 pashei shadow hoiche kintu kon 2 ta k o dite hbe goldenrod color teke shoro kre brown porjontu value 2 kon k borat krche  */
+        }
+        .box-4{
+            margin: 50px;
+            height: 300px;
+            width: 600px;
+            background-color: navy;
+            box-shadow: 15px 8px 5px rgba(0, 0, 0, 0.283);
+            /* eikane prthom value ta hoche x okko and 2nd valu ta hocche y okko 
+            and 3rd j valu ta ache seta hcche blur (mane oi j 2 okko ache sei gula k blur krbe blur er poriman kmn hbe taw oi vau dara prokas pay) */
+        }
+        .box-5{
+            margin: 50px;
+            height: 300px;
+            width: 600px;
+            background-color: navy;
+            box-shadow: 15px 8px 5px 18px rgba(0, 0, 0, 0.283);
+            /* eikane 4th valu ta hocche blur er sparet mane blaur ta koi px mto hbe sei rokom ekta bisoy */
+        
+        }
+        .box-6{
+            margin: 50px;
+            height: 300px;
+            width: 600px;
+            background-color: rgb(145, 239, 23);
+            box-shadow: 15px 8px 5px rgba(229, 18, 18, 0.521) inset;
+            /* eikane color er por inset j valu ta likha hoiche sitar mane hocche j shadow
+            ta by defalt bahire inset likhar porle seita bhitor er dike shadow hbe inset and color er modde kono komaw dewa hoyni */
+        }
+        .box-7{
+            margin: 50px;
+            height: 300px;
+            width: 600px;
+            background-color: navy;
+            box-shadow: 0 0 10px 20px;
+            /* charidike shadow dite hle prthom 2 ta valu 0 dite hbe  */
+        }
+        
+    </style>
 </head>
 <body>
-    
+    <div class="box-1">
+
+    </div>
+    <div class="box-2">
+
+    </div>
+    <div class="box-3">
+
+    </div>
+    <div class="box-4">
+
+    </div>
+    <div class="box-5">
+
+    </div>
+    <div class="box-6">
+
+    </div>
+    <div class="box-7">
+
+    </div>
 </body>
 </html>
